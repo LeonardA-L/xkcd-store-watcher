@@ -1,0 +1,16 @@
+{
+  "name": "xkcd-store-watcher",
+  "version": "1.0.0",
+  "description": "Will scrape the xkcd store for a specific item and trigger a webhook when it is available",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "phantomjs": "^2.1.7",
+    "repeat": "0.0.6",
+    "request": "^2.79.0",
+    "spooky": "^0.2.5"
+  }
+}
