@@ -65,8 +65,8 @@ function runScript() {
     });
 }
 
-function schedule(){
-    Repeat(runScript).every(5000, 'ms').start.in(1, 'sec');
+function schedule(config){
+    Repeat(runScript).every(config.repeat.time, config.repeat.unit).start.in(1, 'sec');
 }
 
-schedule();
+schedule(config);
