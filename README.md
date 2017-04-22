@@ -7,6 +7,8 @@ There is [one item](https://store.xkcd.com/products/self-reference) from the xkc
 After wasting time checking for availability I wrote this script that does it for me, and pings me on Slack using the 
 [incoming webhooks](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks) integration.
 
+[EDIT] : xkcd ended up restocking and I got my T-Shirt thanks to xkcd watcher. Great day.
+
 # Install
 
 You need node and npm installed on your machine.
